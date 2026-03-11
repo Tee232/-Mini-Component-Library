@@ -87,9 +87,9 @@ body {
   height: auto;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
-  column-gap: 2rem;
+  column-gap: 5rem;
   padding: 1rem;
   background-color: var(--backgroundColor);
 
