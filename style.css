@@ -81,6 +81,25 @@ body {
   height: 200vh;
   padding: 4rem;
 }
+
+/* Header */
+.header {
+  text-align: center;
+  margin-bottom: 2.5rem;
+}
+.h1 {
+  font-family: var(--font-heading);
+  color: var(--color-black-heading);
+  font-size: var(--fontSize-xxlarge);
+  font-weight: var(--font-weight-bold);
+}
+.sub-text {
+  padding-top: 1rem;
+  font-family: var(--font-body);
+  font-size: var(--fontSize-medium);
+  color: var(--color-neutral-body);
+}
+
 /* Navbar */
 .navbar {
   width: 40%;
@@ -112,6 +131,15 @@ h5 {
 }
 
 /* Buttons */
+.component-section {
+  text-align: center;
+  padding-top: 2rem;
+  width: 40%;
+}
+.h2 {
+  font-family: var(--font-heading);
+  font-weight: var(--font-weight-regular);
+}
 .button-container {
   width: 100%;
   height: auto;
@@ -120,7 +148,7 @@ h5 {
   justify-content: center;
   align-items: center;
   column-gap: 1.5rem;
-  padding: 4rem 1rem 2rem 1rem;
+  padding: 2rem 1rem 2rem 1rem;
 }
 .button-primary {
   width: fit-content;
@@ -169,13 +197,14 @@ h5 {
 }
 
 /* Input */
+
 .input-group {
   display: flex;
   flex-direction: column;
   align-items: start;
   row-gap: 0.8rem;
   padding: 1.8rem;
-  width: 40%;
+  width: 100%;
   height: auto;
 }
 
@@ -201,12 +230,14 @@ h5 {
 
 /* Card */
 .card-container {
-  width: 25%;
+  width: 45%;
   height: auto;
   display: flex;
   flex-direction: column;
-  justify-content: start;
-  align-items: start;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10rem;
+  margin-top: 1.5rem;
 }
 .card {
   padding: 1.5rem 2rem;
@@ -269,18 +300,18 @@ p {
   height: auto;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: start;
   align-items: center;
   row-gap: 1rem;
   padding: 2rem;
 }
 
 .alert-success {
-  width: 25%;
+  width: 40%;
   display: flex;
   flex-direction: row;
   justify-content: start;
-  align-items: center;
+  align-items: start;
   column-gap: 2rem;
   padding: 1rem 1.3rem;
   background-color: var(--color-success-light);
@@ -303,7 +334,7 @@ p {
 }
 
 .alert-warning {
-  width: 22%;
+  width: 45%;
   display: flex;
   flex-direction: row;
   justify-content: start;
@@ -331,7 +362,7 @@ p {
   color: var(--color-warning);
 }
 .alert-failed {
-  width: 22%;
+  width: 45%;
   display: flex;
   flex-direction: row;
   justify-content: start;
@@ -360,12 +391,14 @@ p {
 
 /* Modal */
 .modal-container {
-  width: 30%;
+  width: 50%;
   height: auto;
   display: flex;
   flex-direction: column;
   justify-content: start;
-  align-items: start;
+  align-items: center;
+  margin-left: 10rem;
+  margin-top: 1.5rem;
 }
 
 .modal-content {
